@@ -70,16 +70,11 @@ function fourthClick() {
 }
 
 if (option == "Armored") {
-    //document.getElementById("imageone").innerHTML='<img src="https://cdn.mos.cms.futurecdn.net/MjguwowGv4CKCkTcK832sZ-320-80.jpg">';
     var one = document.getElementById("imageone");
     one.setAttribute("src", "https://cdn.mos.cms.futurecdn.net/MjguwowGv4CKCkTcK832sZ-320-80.jpg");
     one.classList.add("imageSize");
     var text = document.getElementById("h3tag");
     text.innerHTML = "Armored";
-   
-
-   
-    
 }
 else if (option == "Horned") {
     var one = document.getElementById("imageone");
@@ -99,6 +94,7 @@ else if (option == "Amphibious") {
     
 }
 var userHealth=document.getElementById("spantagone");
+userHealth.innerHTML=50;
 var computerHealth=document.getElementById("spantagtwo");
 
 
