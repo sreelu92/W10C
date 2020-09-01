@@ -30,9 +30,11 @@ function secondClick() {
     if (userHealth.innerHTML <= 0) {
         document.getElementById("container").innerHTML = "You failed the game";
         Cookies.remove("value1");
+        Cookies.remove("value2");
     }
     if (computerHealth.innerHTML <= 0) {
         document.getElementById("container").innerHTML = "You won the game";
+        Cookies.remove("value1");
         Cookies.remove("value2");
     }
 }
@@ -46,9 +48,11 @@ function thirdClick() {
     if (userHealth.innerHTML <= 0) {
         document.getElementById("container").innerHTML = "You failed the game";
         Cookies.remove("value1");
+        Cookies.remove("value2");
     }
     if (computerHealth.innerHTML <= 0) {
         document.getElementById("container").innerHTML = "You won the game";
+        Cookies.remove("value1");
         Cookies.remove("value2");
     }
 }
@@ -62,9 +66,11 @@ function fourthClick() {
     if (userHealth.innerHTML <= 0) {
         document.getElementById("container").innerHTML = "You failed the game";
         Cookies.remove("value1");
+        Cookies.remove("value2");
     }
     if (computerHealth.innerHTML <= 0) {
         document.getElementById("container").innerHTML = "You won the game";
+        Cookies.remove("value1");
         Cookies.remove("value2");
     }
 }
