@@ -94,7 +94,6 @@ else if (option == "Amphibious") {
     
 }
 var userHealth=document.getElementById("spantagone");
-userHealth.innerHTML=50;
 var computerHealth=document.getElementById("spantagtwo");
 
 
