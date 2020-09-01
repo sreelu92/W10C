@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    min-height: 70vh;
+    row-gap: 8vh;
+    #header-text {
+        font-size: xx-large;
+        font-weight: bolder;
+        margin-top: 2vh;
+    }
+    #images {
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+        min-height: 50vh;
+        .styling {
+            width:70%;
+        }
+        #three {
+            #image3 {
+                margin-top: 4vh;
+                width: 100%;
+            }
+        }
+        
+    }
+    #choose {
+        font-size: xx-large;
+        font-weight: bolder;
+        color: red;
+       
+        
+      
+
+    }
+    
+
+}

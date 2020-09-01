@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.imageSize {
+  width: 250px;
+}
+
+#container {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+#container #one #h3tag {
+  margin-left: 9vw;
+}
+
+#container #one #h3tags {
+  margin-left: 8vw;
+}
+
+#container #one #spantagone {
+  margin-left: 10vw;
+}
+
+#container #two #h3tag2 {
+  margin-left: 4vw;
+}
+
+#container #two #spantagtwo {
+  margin-left: 6vw;
+}
+/*# sourceMappingURL=style2.css.map */

@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.imageSize {
+    width:250px;
+}
+#container {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    #one {
+        #h3tag {
+            margin-left: 9vw;
+        }
+        #h3tags {
+            margin-left:8vw;
+        }
+        #spantagone {
+            margin-left: 10vw;
+        }
+       
+          
+           
+            
+        
+        
+    }
+    #two {
+        #h3tag2 {
+            margin-left:4vw;
+
+        }
+        #spantagtwo {
+            margin-left: 6vw;
+        }
+    }
+}
